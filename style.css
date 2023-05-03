@@ -30,14 +30,17 @@ button {
   border: 3px solid #1ad25a;
   border-radius: 100%;
   padding: 20px;
+  transition: linear 1s;
 }
 
 .container:active button {
   display: none;
+  transition: linear 1s;
 }
 
 .container:active .icon {
   display: block;
+  transition: linear 1s;
   background: #1ad25a;
 }
 
