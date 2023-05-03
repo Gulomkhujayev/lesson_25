@@ -6,7 +6,7 @@ body{
 }
 .container{
     border-radius: 50px;
-    padding: 20px 30px;
+    padding: 20px 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,7 +24,7 @@ button{
 .container:active{
     background: #1ad25a;
     border: 3px solid #1ad25a;
-    border-radius: 100%;
+    border-radius: 100px;
     padding: 20px;
     transition: linear 1s;
 }
@@ -36,5 +36,4 @@ button{
 .container:active .icon{
     display: block;
     transition: linear 1s;
-    background: #1ad25a;
 }
