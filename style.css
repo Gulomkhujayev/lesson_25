@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  border-radius: 50px;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #1ad25a;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  font-size: 40px;
+  color: #1ad25a;
+}
+
+.icon {
+  display: none;
+}
+
+.container:active {
+  background: #1ad25a;
+  border: 3px solid #1ad25a;
+  border-radius: 100%;
+  padding: 20px;
+}
+
+.container:active button {
+  display: none;
+}
+
+.container:active .icon {
+  display: block;
+  background: #1ad25a;
+}
+
+/*# sourceMappingURL=style.css.map */
